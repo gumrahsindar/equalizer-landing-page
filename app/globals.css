@@ -10,16 +10,27 @@ body {
   background-image: url(/bg-main-mobile.png);
   background-repeat: no-repeat;
   background-position: right -200px top -300px;
-  background-size: cover;
+  background-size: auto;
 }
 
-@media (min-width: 640px) {
+#pricing {
+  background-color: #191827;
+  background-image: url(/bg-pattern-2.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 300px;
+}
+
+@media (min-width: 768px) {
   body {
     background-image: url(/bg-pattern-1.svg), url(/bg-main-tablet.png);
     background-position:
       right -40px top -40px,
       right -110px top -200px;
     background-size: 270px, auto;
+  }
+  #pricing {
+    background-size: 400px;
   }
 }
 
