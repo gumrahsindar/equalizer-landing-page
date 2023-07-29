@@ -5,16 +5,21 @@ const Pricing = () => {
   return (
     <section
       id='pricing'
-      className='relative mx-auto max-w-6xl items-center flex md:justify-evenly flex-col md:flex-row mb-16 '
+      className='relative mx-auto mb-24 max-w-6xl items-center flex md:justify-evenly flex-col md:flex-row md:mb-40 lg:mb-64 '
     >
       {/* image */}
 
       <div className='px-20 md:px-0 md:ml-20 z-20 -translate-y-28  md:max-w-sm mx-auto '>
-        <Image src='/illustration-app.png' alt='' width={500} height={500} />
+        <Image
+          src='/illustration-app.png'
+          alt='app illustration'
+          width={500}
+          height={500}
+        />
       </div>
 
       {/* pricing container */}
-      <div className='py-12 px-9 bg-clr-orange md:mr-20 text-clr-white z-50 rounded-lg w-full -translate-y-10 md:absolute md:right-10 md:top-72 md:w-fit   md:px-12 lg:px-14 lg:py-16 md:-translate-y-0 '>
+      <div className='py-12 px-9 bg-clr-orange md:mr-20 text-clr-white z-50 rounded-lg w-full translate-y-2 md:absolute md:right-10 md:top-72 md:w-fit   md:px-12 lg:px-14 lg:py-16 md:-translate-y-0 '>
         <h2 className='font-bold text-lg mb-3 lg:mb-6 lg:text-xl'>
           Premium EQ
         </h2>
