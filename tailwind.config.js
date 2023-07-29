@@ -45,6 +45,8 @@ module.exports = {
         'pattern-1': "url('/bg-pattern-1.svg')",
         'pattern-2': "url('/bg-pattern-2.svg')",
         illustration: "url('/illustration-app.png')",
+        'icon-apple': "url('/icon-apple.svg')",
+        'icon-android': "url('/icon-android.svg')",
       },
       keyframes: {
         'accordion-down': {
