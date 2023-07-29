@@ -18,7 +18,12 @@ body {
   background-image: url(/bg-pattern-2.svg);
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 300px;
+  background-size: calc(75% + 40px);
+}
+
+.ficon:hover {
+  filter: invert(66%) sepia(34%) saturate(5839%) hue-rotate(328deg)
+    brightness(104%) contrast(96%);
 }
 
 @media (min-width: 768px) {
