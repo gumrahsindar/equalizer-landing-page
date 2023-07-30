@@ -42,7 +42,7 @@ const Pricing = () => {
           </Button>
           <Button
             variant='secondary'
-            className=' py-8 rounded-2xl flex space-x-3 items-center justify-center hover:bg-clr-yellow'
+            className='flex py-8 rounded-2xl space-x-3 items-center justify-center hover:bg-clr-yellow'
           >
             <img src='/icon-android.svg' alt='' />
 
